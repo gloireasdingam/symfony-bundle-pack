@@ -1,0 +1,6 @@
+services:
+    TonVendor\SymfonyBundlePack\Command\InstallCommand:
+        arguments:
+            $projectDir: '%kernel.project_dir%'
+        tags:
+            - { name: console.command }

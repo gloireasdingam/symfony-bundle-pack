@@ -1,0 +1,46 @@
+{
+    "name": "ton-vendor/symfony-bundle-pack",
+    "description": "Pack de configuration pour FOSUserBundle, EasyAdminBundle, StofDoctrineExtensionsBundle, LiipImagineBundle, VichUploaderBundle et DoctrineFixturesBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": ["symfony", "bundle", "easyadmin", "doctrine", "vich", "liip", "fixtures"],
+    "authors": [
+        {
+            "name": "Ton Nom",
+            "email": "ton@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "easycorp/easyadmin-bundle": "^4.8",
+        "liip/imagine-bundle": "^2.3",
+        "stof/doctrine-extensions-bundle": "^1.7",
+        "vich/uploader-bundle": "^2.3",
+        "doctrine/doctrine-bundle": "^2.11",
+        "doctrine/orm": "^2.17"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.5",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "TonVendor\\SymfonyBundlePack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TonVendor\\SymfonyBundlePack\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": true
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

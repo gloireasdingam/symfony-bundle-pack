@@ -1,0 +1,6 @@
+# config/packages/symfony_bundle_pack.yaml
+# Ce fichier est copié automatiquement dans le projet par Symfony Flex
+# lors du "composer require ton-vendor/symfony-bundle-pack"
+
+# Référence les configs des bundles inclus
+# Chaque bundle installe sa propre config via ses propres recipes Flex
