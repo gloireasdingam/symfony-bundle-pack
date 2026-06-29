@@ -1,5 +1,5 @@
 {
-    "name": "ton-vendor/symfony-bundle-pack",
+    "name": "gloireasdingam/symfony-bundle-pack",
     "description": "Pack de configuration pour FOSUserBundle, EasyAdminBundle, StofDoctrineExtensionsBundle, LiipImagineBundle, VichUploaderBundle et DoctrineFixturesBundle",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -7,8 +7,8 @@
     "keywords": ["symfony", "bundle", "easyadmin", "doctrine", "vich", "liip", "fixtures"],
     "authors": [
         {
-            "name": "Ton Nom",
-            "email": "ton@email.com"
+            "name": "Asdingam",
+            "email": "gloireasdingam@gmail.com"
         }
     ],
     "require": {
