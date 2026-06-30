@@ -3,7 +3,6 @@
     "description": "Pack de configuration pour FOSUserBundle, EasyAdminBundle, StofDoctrineExtensionsBundle, LiipImagineBundle, VichUploaderBundle et DoctrineFixturesBundle",
     "type": "symfony-bundle",
     "license": "MIT",
-    "version": "1.0.0",
     "keywords": ["symfony", "bundle", "easyadmin", "doctrine", "vich", "liip", "fixtures"],
     "authors": [
         {
